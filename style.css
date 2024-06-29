@@ -1,0 +1,72 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: 'rodape';
+    src: url(Marck_Script/MarckScript-Regular.ttf);
+}
+header{
+    height:auto;
+    background: linear-gradient(#010005,#020B1A,#010005);
+    
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+#img-capa{
+    width: 50%;
+    display: flex;
+    margin:auto
+}
+
+main{
+    margin:auto;
+    padding-top:30px;
+    background-color:antiquewhite;
+    max-width: 1050px;
+    min-width: 350px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:10px
+}
+
+.container-img{
+    max-width: 100%;
+    display:block
+}
+
+main img{
+    width: 300px;
+}
+
+footer{
+    background-color: black;
+    height: 50px;
+    padding: 20px;
+}
+footer h2{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'rodape';
+}
+h2 a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(195, 194, 194);
+}
+h2 a:hover{
+    color:blanchedalmond
+}
+
+
+
